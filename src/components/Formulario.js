@@ -107,7 +107,7 @@ const Formulario = ({ crearCita }) => {
                 ></textarea>
                 <button
                     type="submit"
-                    className="u-full-width button-primary"
+                    className="u-full-width button-primary enviar"
                 >Agregar Cita</button>
             </form>
         </Fragment>
