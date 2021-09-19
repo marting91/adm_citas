@@ -13,6 +13,7 @@ function App() {
 
   // Use Effect
   useEffect(() => {
+    let citasLS = JSON.parse(localStorage.getItem('citas')) || [];
     if (citasLS) {
       localStorage.setItem('citas', JSON.stringify(citas));
     } else {
