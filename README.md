@@ -1,17 +1,21 @@
-# Proyecto de gestión de turnos
+# Shift management project
 
-Frontend de un sistema de gestión de citas para una veterinaria (aunque bien se podría adaptar a otros contextos).
+Frontend of an appointment management system for a veterinarian (although it could be adapted to other contexts).
 
-## Herramientas utilizadas
+## Tools used
 * React
 * [Create React App](https://github.com/facebook/create-react-app)
 * [Skeleton](http://getskeleton.com/)
 
 
-Para este proyecto se utilizó [Create React App](https://github.com/facebook/create-react-app).
+[Create React App](https://github.com/facebook/create-react-app) was used for this project.
 
-## Correr el proyecto
+## Running the project on local
 
-Para iniciar el proyecto en local debe ejeguarse el comando `npm start` estando situado en la raíz del pryoyecto.
+To start the project locally, the `npm start` command must be executed while located at the root of the project.
 
-Esto iniciará la aplicación en  [http://localhost:3000](http://localhost:3000).
+This will start the application at [http://localhost:3000](http://localhost:3000).
+
+## Deployment
+
+To deploy the project you must use the `npm run build` command, which will generate the `build` folder with the files ready to be published on a server.
